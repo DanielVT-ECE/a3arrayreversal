@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 
 template <typename T>
@@ -12,7 +13,9 @@ void print_array(const T arr[], int n) {
 
 template <typename T>
 void reverse_array(T arr[], int n) {
-    if (arr[n-1] == '\0') --n;
+    if constexpr (std::is_same<T, char>::value) {
+        if (n > 0 && arr[n-1] == '\0') --n;
+    }
     for (int i = 0; i < n / 2; ++i) {
         T temp = arr[i];
         arr[i] = arr[n - 1 - i];

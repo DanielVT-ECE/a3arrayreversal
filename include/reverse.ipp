@@ -1,4 +1,5 @@
-#pragma once
+#include <iostream>
+
 template <typename T>
 void print_array(const T arr[], int n) {
     std::cout << "[";

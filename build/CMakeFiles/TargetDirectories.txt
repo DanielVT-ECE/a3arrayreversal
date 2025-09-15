@@ -1,0 +1,5 @@
+/home/daniel/ece3514/a3arrayreversal/build/CMakeFiles/a3arrayreversal.dir
+/home/daniel/ece3514/a3arrayreversal/build/CMakeFiles/my_test.dir
+/home/daniel/ece3514/a3arrayreversal/build/CMakeFiles/test.dir
+/home/daniel/ece3514/a3arrayreversal/build/CMakeFiles/edit_cache.dir
+/home/daniel/ece3514/a3arrayreversal/build/CMakeFiles/rebuild_cache.dir
